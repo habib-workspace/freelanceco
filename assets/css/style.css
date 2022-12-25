@@ -1,5 +1,6 @@
 /* general */
 body {
+    background: linear-gradient(252.24deg, rgba(165, 166, 246, 0.6) 5.62%, #FFFFFF 90.16%);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -28,11 +29,6 @@ header ul {
     color: black;
     background-color: transparent;
     border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-    border-bottom-color: #EF5DA8;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -110,4 +106,12 @@ p {
     background-color: white;
     border: 1px solid #5D5FEF;
     color: #5D5FEF;
+}
+
+img {
+    position: absolute;
+    width: 554px;
+    height: 601px;
+    left: 790px;
+    top: 123px;
 }
